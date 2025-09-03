@@ -19,4 +19,3 @@ class Revista implements IPublicable {
         return "Revista: {$this->periodicity} -- {$this->title} ({$this->year}) - " . $this->autor->getInfo();
     }
 }
-?>
