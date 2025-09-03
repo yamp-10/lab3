@@ -1,5 +1,4 @@
 <?php
-// libro.php
 require_once("IPublicable.php");
 require_once("Autor.php");
 
