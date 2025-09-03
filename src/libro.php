@@ -17,4 +17,3 @@ class Libro implements IPublicable {
         return "Libro: {$this->titulo} ({$this->año}) - " . $this->autor->getInfo();
     }
 }
-?>
