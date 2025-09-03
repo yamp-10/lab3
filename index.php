@@ -25,4 +25,3 @@ $publicables = [$libro1, $libro2, $revista1, $revista2];
 foreach ($publicables as $item) {
     echo $item->getInfo() . "\n\n";
 }
-?>
