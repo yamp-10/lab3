@@ -4,10 +4,10 @@ require_once("src/Autor.php");
 require_once("src/libro.php");
 require_once("src/revista.php");
 
-$autor1 = new Autor("Elena G. de White", "Americana");
-$autor2 = new Autor("Gabriel García Márquez", "Colombiano");
-$autor3 = new Autor("Julio Cortázar", "Argentino");
-$autor4 = new Autor("Mario Vargas Llosa", "Peruano");
+$autorElenaWhite = new Autor("Elena G. de White", "Americana");
+$autorGabrielGarcia = new Autor("Gabriel García Márquez", "Colombiano");
+$autorJulioCortazar = new Autor("Julio Cortázar", "Argentino");
+$autorMarioVargas = new Autor("Mario Vargas Llosa", "Peruano");
 
 echo "Autor: " . $autor1->getInfo() . "\n";
 echo "Autor: " . $autor2->getInfo() . "\n";
