@@ -1,3 +1,4 @@
+//php de juegos
 <?php
 require_once("src/IPublicable.php");
 require_once("src/Autor.php");
